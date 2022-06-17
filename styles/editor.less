@@ -6,26 +6,31 @@
 
 atom-text-editor {
   font-weight: 900;
-}
-
-atom-text-editor {
   background-color: white;
-}
+  
+  .horizontal-scrollbar {
+    display: none;
+  }
 
-atom-text-editor .gutter .line-number.cursor-line {
-  color: @pydle-line-number-color;
-}
+  .gutter .line-number.cursor-line {
+    color: @pydle-line-number-color;
+  }
 
-atom-text-editor .gutter-container {
-  border-right: 1px @pydle-line-number-color solid;
-}
+  .gutter-container {
+    border-right: 1px @pydle-line-number-color solid;
+  }
 
-atom-text-editor .scroll-view {
-  margin-left: 1%;
-}
+ .scroll-view {
+    margin-left: 1%;
+  }
 
-atom-text-editor .line-number .icon-right {
-  display: none;
+  .line-number {
+    padding: 0px;
+  }
+
+  .line-number .icon-right {
+    display: none;
+  }
 }
 
 atom-text-editor[mini] {
